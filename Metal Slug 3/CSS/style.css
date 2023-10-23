@@ -6,12 +6,12 @@ body {
 
 header {
     width: 100%;
-    height: 230px;
+    height: 180px;
 }
 
 .logo_ms3 {
     position: relative;
-    top: 10px;
+    top: 5px;
     display: flex;
     justify-content: center;
 }
@@ -21,31 +21,39 @@ header {
     width: auto;
 }
 
-.tabs {
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    height: 35px;
-}
-
-.tabs a{
-    font-size: 17px;
-    font-family: 'Segoe UI';
-    text-align: center;
-    margin: 25px;
-    color: #ffffff;
-}
-
-main {
+main { 
     display:grid;
-    min-height: 400px;
+    height: 515px;
+    width: 100%;
 }
 
-.contenido{
+.soldier_select {
     position: relative;
-    left: 25%;
-    width: 50%;
-    min-height: 400px;
+    display:flex;
+    margin: auto;
+    height: 515px;
+}
+
+.soldier {
+    width: 153px;
+}
+
+.soldier_1 {
+    position: absolute;
+    left: 442px;
+    top: 340px;
+}
+
+.imagen_oculta{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+main:hover + .imagen_oculta {
+    opacity: 1;
 }
 
 footer{
