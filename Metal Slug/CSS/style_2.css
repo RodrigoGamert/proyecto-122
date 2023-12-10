@@ -29,6 +29,10 @@ body{
     border: #8E5230 ;
 }
 
+.btn:hover{
+    background-color: #b9764e;
+}
+
 .col-sm-3 img{
     width: 225px;
     height: auto;
