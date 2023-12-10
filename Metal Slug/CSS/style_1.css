@@ -16,19 +16,30 @@
     p{
         margin-left: 50px;
     }
-
+    
     h1{
         margin-left: 50px;
     }
 }
+
+@media (max-width: 575px){
+    h1{
+        margin-left: 0;
+    }
+}
+
 
 body{
     background-color: #8E5230;
     font-family: 'Retro Gaming';
 }
 
+.col-12 {
+    margin-bottom: 0; /* Ajusta según sea necesario para evitar márgenes no deseados */
+}
+
 .col-12 img{
-    width: 225px;
+    max-width: 100px; /* Limitar el ancho máximo si es necesario */
     height: auto;
     padding: 10px;
 }
