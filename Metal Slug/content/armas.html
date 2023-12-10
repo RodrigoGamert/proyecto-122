@@ -5,11 +5,222 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../media/Marco_Rossi.png" sizes="64x64">
     <link rel="stylesheet" href="../CSS/BootStrapCss/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="../CSS/style_1.css" type="text/css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style_2.css" type="text/css">
+    <link rel="stylesheet" href="../CSS/footer.css">
     <title>Armas</title>
 </head>
 <body>
-    
+    <div class="container rounded-5">
+        <div class="row m-3">
+            <div class="col-12 col-sm-3 text-center">
+                <a href="../index.html"><img src="../media/Logo.png" alt="Metal_Slug" class="logo"></a>
+            </div>
+            <div class="col-12 col-sm-9">
+                <div class="row lnk">
+                    <div class="col-4 col-sm-4 text-center">
+                        <a href="#">Inicio</a>
+                    </div>
+                    <div class="col-4 col-sm-4 text-center">
+                        <a href="historia.html">Historia</a>
+                    </div>
+                    <div class="col-4 col-sm-4 text-center mt">
+                        <a href="consejos.html">Consejos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col mb-3">
+                <div class="card mx-auto rounded-5">
+                    <img src="../media/Heavy_Machine_Gun.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Heavy Machine Gun</h5>
+                            <p class="card-text">
+                                Un arma con una velocidad de disparo muy rápida, sus balas son ligeramente más 
+                                poderosas que las de una pistola. 
+                            </p>
+                        <div class="text-end"><a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#heavyMachineGunModal">Más información</a></div>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col mb-3">
+                <div class="card mx-auto rounded-5">
+                    <img src="../media/Flame_Shot.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Flame Shot</h5>
+                            <p class="card-text">
+                                Un arma que dispara una gran ráfaga de llamas, puede eliminar grandes grupos 
+                                con un solo disparo.
+                            </p>
+                        <div class="text-end"><a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FlameShotModal">Más información</a></div>
+                    </div>  
+                  </div>
+            </div>
+
+            <div class="col mb-3">
+                <div class="card mx-auto rounded-5">
+                    <img src="../media/Rocket_Launcher.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rocket Launcher</h5>
+                            <p class="card-text">
+                                Un arma que dispara pequeños cohetes de movimiento lento con gran poder de ataque. 
+                            </p>
+                        <div class="text-end"><a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#RocketLauncherModal">Más información</a></div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col mb-3">
+                <div class="card mx-auto rounded-5">
+                    <img src="../media/Shotgun.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Shotgun</h5>
+                            <p class="card-text">
+                                Un arma que dispara una ráfaga de corto alcance, pero increíblemente poderosa.
+                            </p>
+                        <div class="text-end"><a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ShotgunModal">Más información</a></div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <footer class="pie-pagina">
+                    <div class="grupo-1">
+                        <div class="box">
+                            <figure>
+                                <a href="#">
+                                    <img src="./../assets/multimedia/logo_principal-footer.png" alt="logo :)">
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="box">
+                            <h2>Siguenos</h2>
+                            <div class="red-social">
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-instagram"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-youtube"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grupo-2">
+                        <small>&copy; 2023 <b>THE LIFE IS A GAME</b> Todos los Derechos Reservados.</small>
+                    </div>
+                  </footer>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="heavyMachineGunModal" tabindex="-1" aria-labelledby="heavyMachineGunModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="heavyMachineGunModalLabel">Heavy Machine Gun</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <video id="myVideo" autoplay muted loop controls>
+                        <source src="../media/Heavy_Machine_Gun.mp4" type="video/mp4">
+                        Tu navegador no admite el elemento de video.
+                    </video>
+                    <p>
+                        El HMG comienza con 200 municiones. La HMG es la única arma que puede disparar en diagonal antes de Metal Slug 6. 
+                        La HMG también se puede obtener recogiendo la M60 de Allen O'Neil.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="FlameShotModal" tabindex="-1" aria-labelledby="FlameShotModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="FlameShotModalLabel">Flame Shot</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <video id="myVideo" autoplay muted loop controls>
+                        <source src="../media/Flame_Shot.mp4" type="video/mp4">
+                        Tu navegador no admite el elemento de video.
+                    </video>
+                    <p>
+                        Un arma que tiene un alcance limitado y una velocidad de disparo lenta.
+                        Las ondas de llama viajan en una trayectoria parabólica poco profunda hacia arriba cuando se 
+                        disparan horizontalmente y tienen un alcance mucho más largo cuando se disparan hacia arriba, 
+                        pero tienen un alcance menor cuando se disparan hacia abajo. A quemarropa, el Flame Shot puede 
+                        causar grandes daños a los vehículos, pero pierde efectividad con la distancia.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="RocketLauncherModal" tabindex="-1" aria-labelledby="RocketLauncherModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="RocketLauncherModalLabel">Heavy Machine Gun Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <video id="myVideo" autoplay muted loop controls>
+                        <source src="../media/Rocket_Launcher.mp4" type="video/mp4">
+                        Tu navegador no admite el elemento de video.
+                    </video>
+                    <p>
+                        Los cohetes pueden ajustar un poco su trayectoria para alcanzar objetivos, en diferentes niveles 
+                        de plataforma, pero no pueden girar completamente. El lanzacohetes puede debilitar tanques y 
+                        otros vehículos blindados mucho más rápido que otras armas y puede eliminar grupos de infantería enemiga 
+                        débil con un solo disparo. El Big Rocket Launcher dispara grandes cohetes con una destrucción mucho mayor.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ShotgunModal" tabindex="-1" aria-labelledby="ShotgunModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ShotgunModalLabel">Heavy Machine Gun Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <video id="myVideo" autoplay muted loop controls>
+                        <source src="../media/Shotgun.mp4" type="video/mp4">
+                        Tu navegador no admite el elemento de video.
+                    </video>
+                    <p>
+                        Esta arma es muy eficaz para eliminar grupos de enemigos, pero también es peligrosa a corta 
+                        distancia. La Big Shotgun dispara una ráfaga más grande con el doble de alcance que la escopeta 
+                        normal. Extremadamente efectivo contra infantería y vehículos, sin embargo, este mejorado tiene 
+                        la mitad de munición, lo que obliga a los jugadores a usar alguna estrategia mientras la empuña 
+                        (15 en comparación con el original con 30).
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="../JS/BootStrapJs/bootstrap.bundle.min.js"></script>
+    <script src="../JS/scripts_2.js"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Monaco;
+    font-family: 'Retro Gaming';
     src: url(../media/Fuentes/Retro_Gaming.ttf) format("truetype");
 }
 
@@ -27,7 +27,7 @@
 
 body{
     background-color: #8E5230;
-    font-family: Monaco;
+    font-family: 'Retro Gaming';
 }
 
 h1 a{

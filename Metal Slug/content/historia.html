@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../media/Marco_Rossi.png" sizes="64x64">
     <link rel="stylesheet" href="../CSS/BootStrapCss/bootstrap.min.css" type="text/css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/style_1.css" type="text/css">
+    <link rel="stylesheet" href="../CSS/footer.css">
     <title>Historia</title>
 </head>
 <body>
@@ -20,17 +22,24 @@
                         <a href="#">Inicio</a>
                     </div>
                     <div class="col-4 col-sm-4 text-center">
-                        <a href="#">Armas</a>
+                        <a href="armas.html">Armas</a>
                     </div>
                     <div class="col-4 col-sm-4 text-center">
-                        <a href="#">Consejos</a>
+                        <a href="consejos.html">Consejos</a>
                     </div>
                 </div>
             </div>
         </div>
         
         <div class="row">
-            <div class="col">
+            <div class="col-md-3 soldiers">
+                <img src="../media/Marco&Tarma.png" alt="Soldiers" class="img-fluid Soldiers">
+                <video id="myVideo" autoplay muted loop class="img-fluid">
+                    <source src="../media/h-1.mp4" type="video/mp4">
+                    Tu navegador no admite el elemento de video.
+                </video>
+            </div>
+            <div class="col-md">
                 <p>
                     Es el inicio del siglo 21 una guerra entre dos grupos militares conocidos como La Armada Regular 
                     (ejército gubernamental cuyo objetivo es mantener la paz y luchar contra el terrorismo) y La Rebelión 
@@ -59,8 +68,32 @@
                     quienes en primer lugar habían fracasado en evitar el ataque de la Rebelión.
                 </p>
             </div>
-            <div class="col-3">
-                <img src="../media/Marco&Tarma.png" alt="Soldiers">
+        </div>
+        <div class="row">
+            <div class="col">
+                <footer class="pie-pagina">
+                    <div class="grupo-1">
+                        <div class="box">
+                            <figure>
+                                <a href="#">
+                                    <img src="./../assets/multimedia/logo_principal-footer.png" alt="logo :)">
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="box">
+                            <h2>Siguenos</h2>
+                            <div class="red-social">
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-instagram"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-youtube"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grupo-2">
+                        <small>&copy; 2023 <b>THE LIFE IS A GAME</b> Todos los Derechos Reservados.</small>
+                    </div>
+                  </footer>
             </div>
         </div>
     </div>    
