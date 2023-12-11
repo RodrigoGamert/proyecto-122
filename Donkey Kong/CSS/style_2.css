@@ -63,6 +63,7 @@ a {
 }
 
 .card{
+    max-width: 550px;
     background-color: #17CFE8;
 }
 
