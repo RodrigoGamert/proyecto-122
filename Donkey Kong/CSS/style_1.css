@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Jumpman';
+    src: url(../media/Fuentes/Jumpman.ttf);
+}
+
+@media (min-width: 576px){
+    .lnk{
+        padding: 5%;
+        font-size: 25px;
+    }    
+    
+    .col-3 img{
+        width: 100%;
+    }
+    
+    p{
+        margin-left: 50px;
+    }
+    
+    h1{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 575px){
+    h1{
+        margin-left: 0;
+    }
+}
+
+body{
+    font-family: 'Jumpman';
+    background-color: #008ece;
+    color: white;
+}
+
+.lnk{
+    font-family: 'Jumpman';
+}
+
+.col-12 {
+    margin-bottom: 0; 
+}
+
+.logo{
+    width: 80%;
+    max-width: 200px;
+    height: auto;
+    padding: 10px;
+}
+
+h1 a{
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    background-color: #CA1918;
+}
+
+.card{
+    background-color: #17CFE8;
+}
+
+.card-text{
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    p{
+        padding-right: 10%;
+    }
+}
+
+@media (min-width:576px) and (max-width:766px){
+    .lnk{
+        font-size: 20px;
+    }
+}

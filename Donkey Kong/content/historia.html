@@ -3,79 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/BootStrapCss/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../CSS/BootStrapCss/bootstrap.min.css" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style.css" type="text/css">
-    <link rel="stylesheet" href="./CSS/footer.css">
-    <link rel="icon" type="image/x-ico" href="./media/icono.ico" sizes="64x64">
-    <title>Donkey Kong</title>
+    <link rel="stylesheet" href="../CSS/style_1.css" type="text/css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="icon" type="image/x-ico" href="../media/icono.ico" sizes="64x64">
+    <title>Historia</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container rounded-5 mb-3">
         <div class="row m-3">
-            <div class="col-12 col-sm-3 text-end">
-                <a href="../index.html"><img src="media/logo.png" class="logo"></a>
+            <div class="col-12 col-sm-3">
+                <a href="../index.html"><img src="../media/logo.png" class="logo  mx-auto d-block"></a>
             </div>
             <div class="col-12 col-sm-9">
                 <div class="row lnk">
                     <div class="col-4 col-sm-4 text-center">
-                        <a href="content/historia.html">Historia</a>
+                        <a href="#">Inicio</a>
                     </div>
                     <div class="col-4 col-sm-4 text-center">
-                        <a href="content/niveles.html">Niveles</a>
+                        <a href="niveles.html">Niveles</a>
                     </div>
                     <div class="col-4 col-sm-4 text-center">
-                        <a href="content/pesonajes.html">Personajes</a>
+                        <a href="personajes.html">Personajes</a>
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="row">
-            <div class="col mb-3">
-                <img src="media/portada.jpeg" class="mx-auto d-block portada">
-            </div>
-        </div>
-        <div class="row mb-3">
             <div class="col">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front eiffel"></div>
-                        <div class="flip-card-back">
-                            <img src="./media/history.jpg" alt="">
-                            <h2>Historia</h2>
-                            <p>
-                                "Donkey Kong" es un clásico juego de arcade de Nintendo donde Mario busca rescatar a su novia de las garras de Donkey Kong.
-                            </p>
-                            <a href="#">Leer más</a>
-                        </div>
-                    </div>
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front freedom"></div>
-                        <div class="flip-card-back">
-                            <img src="./media/Donkey_Kong-Poster.webp" alt="">
-                            <h2>Niveles</h2>
-                            <p>
-                                "Donkey Kong" presenta cuatro niveles desafiantes en los que Mario debe superar obstáculos y enfrentarse a Donkey Kong para rescatar a su novia.
-                            </p>                                
-                            <a href="#">Leer más</a>
-                        </div>
-                    </div>
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front bigben"></div>
-                        <div class="flip-card-back">
-                            <img src="./media/hammer.webp" alt="">
-                            <h2>Personajes</h2>
-                            <p>
-                                Donkey Kong destaca personajes memorables como Mario y Donkey Kong, cuyas interacciones forman la esencia de este clásico juego de Nintendo.
-                            </p>                                
-                            <a href="#">Leer más</a>
-                        </div>
-                    </div>
+                <div class="card mb-3 rounded-5">
+                    <video id="myVideo" autoplay muted loop class="img-fluid mx-auto d-block mt-3 mb-3">
+                        <source src="../media/GP_1.mp4" type="video/mp4">
+                        Tu navegador no admite el elemento de video.
+                    </video>
+                    <div class="card-body">
+                    <h2 class="card-title">Historia de Donkey Kong (1981)</h2>
+                    <p class="card-text">
+                        "Donkey Kong", el juego de arcade lanzado por Nintendo en 1981, introduce a los jugadores 
+                        en una narrativa clásica donde Mario, en sus primeras apariciones como Jumpman, se embarca 
+                        en una misión para rescatar a su novia, Pauline, secuestrada por el gigantesco gorila Donkey Kong.
+                        La trama se desenvuelve a lo largo de cuatro niveles desafiantes, cada uno con su propio 
+                        conjunto de obstáculos, desde barriles rodantes hasta llamas que Mario debe esquivar y superar 
+                        para avanzar. A medida que los jugadores progresan, la dificultad aumenta, culminando en 
+                        enfrentamientos épicos entre Mario y Donkey Kong en la cima de las estructuras. Este clásico 
+                        juego no solo estableció las bases para la exitosa franquicia de Mario, sino que también 
+                        consolidó a Donkey Kong como un personaje emblemático en la historia de los videojuegos. 
+                        Su legado perdura como uno de los hitos más significativos en la evolución de la industria 
+                        del entretenimiento interactivo.
+                    </p>
                 </div>
+                </div>  
             </div>
         </div>
-        
     </div>
 
     <div class="pie-pagina">
@@ -83,7 +63,7 @@
             <div class="box">
                 <figure>
                     <a href="#">
-                        <img src="./media/logo_pw.png" alt="logo :)">
+                        <img src="../media/logo_pw.png" alt="logo :)">
                     </a>
                 </figure>
             </div>

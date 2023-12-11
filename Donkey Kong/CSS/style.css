@@ -1,9 +1,4 @@
 @font-face {
-    font-family: 'Retro Gaming';
-    src: url(../media/Fuentes/Retro_Gaming.ttf) format("truetype");
-}
-
-@font-face {
     font-family: 'Jumpman';
     src: url(../media/Fuentes/Jumpman.ttf);
 }
