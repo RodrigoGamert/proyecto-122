@@ -35,11 +35,11 @@ body{
 }
 
 .col-12 {
-    margin-bottom: 0; /* Ajusta según sea necesario para evitar márgenes no deseados */
+    margin-bottom: 0;
 }
 
 .col-12 img{
-    max-width: 100px; /* Limitar el ancho máximo si es necesario */
+    max-width: 225px; 
     height: auto;
     padding: 10px;
 }

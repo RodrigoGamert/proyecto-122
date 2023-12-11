@@ -38,7 +38,7 @@ body{
 }
 
 .col-sm-3 img{
-    width: 225px;
+    max-width: 225px;
     height: auto;
     padding: 10px;
 }
