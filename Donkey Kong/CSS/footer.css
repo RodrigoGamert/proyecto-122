@@ -1,6 +1,6 @@
 .pie-pagina{
     width: 100%;
-    background-color: #17d0e8b1;
+    background-color: #17d0e8;
 }
 
 .pie-pagina .grupo-1{
@@ -52,7 +52,7 @@
 }
 
 .pie-pagina .grupo-1 .red-social a:hover{
-    background-color: #17d0e8;
+    background-color: #078798;
     color: #12165f;
 }
 
