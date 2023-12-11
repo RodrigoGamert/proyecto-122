@@ -66,6 +66,18 @@ a {
     background-color: #17CFE8;
 }
 
+.jumperman img{
+    max-height: 500px;
+}
+
+.dk img{
+    max-height: 350px;
+}
+
+.pauline img{
+    max-height: 380px;
+}
+
 .card-text{
     font-size: 20px;
 }
